@@ -1,0 +1,22 @@
+<html>
+
+  <head></head>
+  <body>
+    <p id='post-here' style="color:red;height:200px">s<br />ome</p>
+    <p id='post-here2'></p>
+    <p id='post-here3'></p>
+
+    <script>
+      triangle();
+      function triangle(){
+        for(var i = 1; i<=7; i++){
+          var displayTxt = '#'.repeat(i) + ''<br>';
+          document.getElementById('post-here').textContent += displayTxt;
+        }
+
+
+    </script>
+
+  </body>
+
+</html>
